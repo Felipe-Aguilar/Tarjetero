@@ -15,7 +15,7 @@ body {
     display: inline-block;
     margin-left: 10px;
     color: #fff;
-    font-size: 17px; }
+    font-size: 14px; }
     .tarjetero .encabezado h5 span {
       color: #00a859; }
 .tarjetero .tarjeta {
@@ -48,7 +48,7 @@ body {
     text-align: center; }
     @media screen and (max-width: 575px) {
       .tarjetero .opciones a {
-        font-size: 13px; } }
+        font-size: 10.3px; } }
     .tarjetero .opciones a svg {
       display: block;
       margin: auto; }
@@ -58,5 +58,17 @@ body {
   border: none;
   color: #fff;
   background: #7190c9; }
+
+.slider {
+  margin-top: 10px; }
+  .slider .buscar {
+    background-image: url("../img/ButtonSearch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 125px; }
+    .slider .buscar p {
+      color: #fff;
+      margin-left: 50px;
+      margin-top: 5px; }
 
 /*# sourceMappingURL=estilos.css.map */

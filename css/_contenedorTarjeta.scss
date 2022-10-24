@@ -17,7 +17,7 @@ $btnColor: #7190c9;
             display: inline-block;
             margin-left: 10px;
             color: #fff;
-            font-size: 17px;
+            font-size: 14px;
 
             span{
                 color: $verdeColor;
@@ -70,7 +70,7 @@ $btnColor: #7190c9;
             text-align: center;
 
             @media screen and (max-width: 575px){
-                font-size: 13px;
+                font-size: 10.3px;
             }
             svg{
                 display: block;
@@ -85,6 +85,29 @@ $btnColor: #7190c9;
             border: none;
             color: #fff;
             background: $btnColor;
+        }
+    }
+}
+
+.slider{
+    margin-top: 10px;
+    .slide-tarjeta{
+        // padding: 20px 15px;
+        // border-radius: 100px;
+        // background: rgb(221,239,227);
+        // background: linear-gradient(180deg, rgba(221,239,227,1) 0%, rgba(243,245,243,1) 48%, rgba(255,255,255,1) 100%);
+    }
+
+    .buscar{
+        background-image: url("../img/ButtonSearch.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 125px;
+
+        p{
+            color: #fff;
+            margin-left: 50px;
+            margin-top: 5px;
         }
     }
 }
