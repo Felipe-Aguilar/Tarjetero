@@ -1,0 +1,62 @@
+body {
+  background: #e9e9e9; }
+
+* {
+  font-family: 'Poppins', sans-serif; }
+
+.tarjetero .encabezado {
+  background: #4b4b4d;
+  padding: 13px;
+  height: 80px; }
+  .tarjetero .encabezado img {
+    width: 85px;
+    display: inline-block; }
+  .tarjetero .encabezado h5 {
+    display: inline-block;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 17px; }
+    .tarjetero .encabezado h5 span {
+      color: #00a859; }
+.tarjetero .tarjeta {
+  background: #cfd1ce;
+  background: linear-gradient(90deg, #cfd1ce 0%, white 100%);
+  height: 230px;
+  margin-top: 40px !important;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2.7px rgba(0, 0, 0, 0.23), 0px 0px 6.9px rgba(0, 0, 0, 0.159), 0px 0px 14.2px rgba(0, 0, 0, 0.128), 0px 0px 29.2px rgba(0, 0, 0, 0.102), 0px 0px 80px rgba(0, 0, 0, 0.071); }
+  .tarjetero .tarjeta h6 {
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px; }
+  .tarjetero .tarjeta hr {
+    padding: 0px;
+    margin-top: 5px;
+    border: 1px solid #2a0b53; }
+  .tarjetero .tarjeta h5 {
+    text-transform: uppercase; }
+  .tarjetero .tarjeta img {
+    width: 150px; }
+.tarjetero .opciones {
+  background: #fff;
+  padding: 15px 5px;
+  border-radius: 10px;
+  margin-top: 0px !important; }
+  .tarjetero .opciones a {
+    text-decoration: none;
+    color: #000;
+    text-align: center; }
+    @media screen and (max-width: 575px) {
+      .tarjetero .opciones a {
+        font-size: 13px; } }
+    .tarjetero .opciones a svg {
+      display: block;
+      margin: auto; }
+.tarjetero .registro button {
+  padding: 6px 17px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background: #7190c9; }
+
+/*# sourceMappingURL=estilos.css.map */
