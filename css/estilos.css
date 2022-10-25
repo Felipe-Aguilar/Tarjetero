@@ -7,15 +7,15 @@ body {
 .tarjetero .encabezado {
   background: #4b4b4d;
   padding: 13px;
-  height: 80px; }
+  height: 63px; }
   .tarjetero .encabezado img {
-    width: 85px;
+    width: 70px;
     display: inline-block; }
   .tarjetero .encabezado h5 {
     display: inline-block;
     margin-left: 10px;
     color: #fff;
-    font-size: 14px; }
+    font-size: 15px; }
     .tarjetero .encabezado h5 span {
       color: #00a859; }
 .tarjetero .tarjeta {
@@ -41,7 +41,8 @@ body {
   background: #fff;
   padding: 15px 5px;
   border-radius: 10px;
-  margin-top: 0px !important; }
+  margin-top: 0px !important;
+  box-shadow: 0px 0px 2.7px rgba(0, 0, 0, 0.23), 0px 0px 6.9px rgba(0, 0, 0, 0.159), 0px 0px 14.2px rgba(0, 0, 0, 0.128), 0px 0px 29.2px rgba(0, 0, 0, 0.102), 0px 0px 80px rgba(0, 0, 0, 0.071); }
   .tarjetero .opciones a {
     text-decoration: none;
     color: #000;
@@ -60,7 +61,11 @@ body {
   background: #7190c9; }
 
 .slider {
-  margin-top: 10px; }
+  margin-top: 60px !important; }
+  .slider .slide-tarjeta {
+    border-radius: 8px;
+    height: 300px;
+    background: #000; }
   .slider .buscar {
     background-image: url("../img/ButtonSearch.png");
     background-repeat: no-repeat;
