@@ -1,0 +1,74 @@
+$colorMorado: #393978;
+
+.myTitulo{
+    
+    img{
+        width: 200px;
+        float: right;
+        margin-top: -40px;
+    }
+}
+
+.perfil{
+    .cuerpo{
+        background: rgb(255,255,255);
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(229,213,232,1) 53%, rgba(218,193,222,1) 100%);
+        border: none;
+        border-radius: 30px;
+        padding: 10px 20px;
+        height: 290px;
+
+        .logo{
+            img{
+                margin-top: -70px;
+            }
+        }
+        h5{
+            text-transform: uppercase;
+            font-size: 18px;
+            padding: 0px;
+            margin: 0px;
+        }
+        p{
+            text-transform: uppercase;
+            font-size: 15px;
+        }
+    }
+    .contenido{
+        background: #fff;
+        border-radius: 30px;
+        margin: 0px 15px;
+        margin-top: -215px;
+        padding: 20px 30px;
+        box-shadow:
+        4.5px 2.4px 3.6px rgba(0, 0, 0, 0.017),
+        12.4px 6.6px 10px rgba(0, 0, 0, 0.025),
+        29.8px 16px 24.1px rgba(0, 0, 0, 0.033),
+        99px 53px 80px rgba(0, 0, 0, 0.05)
+        ;
+
+        img{
+            width: 40px;
+            display: block;
+            margin: auto;
+        }
+        h6{
+            padding: 0;
+            margin: 0;
+            color: $colorMorado;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        a, p{
+            font-size: 14px;
+        }
+    }
+}
+
+.servicios{
+    h6{
+        color:$colorMorado;
+    }
+}

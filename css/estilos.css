@@ -1,5 +1,5 @@
 body {
-  background: #e9e9e9; }
+  background: #fff; }
 
 * {
   font-family: 'Poppins', sans-serif; }
@@ -19,12 +19,8 @@ body {
     .tarjetero .encabezado h5 span {
       color: #00a859; }
 .tarjetero .tarjeta {
-  background: #cfd1ce;
-  background: linear-gradient(90deg, #cfd1ce 0%, white 100%);
-  height: 230px;
   margin-top: 40px !important;
-  border-radius: 15px;
-  box-shadow: 0px 0px 2.7px rgba(0, 0, 0, 0.23), 0px 0px 6.9px rgba(0, 0, 0, 0.159), 0px 0px 14.2px rgba(0, 0, 0, 0.128), 0px 0px 29.2px rgba(0, 0, 0, 0.102), 0px 0px 80px rgba(0, 0, 0, 0.071); }
+  border-radius: 15px; }
   .tarjetero .tarjeta h6 {
     text-transform: uppercase;
     padding: 0px;
@@ -32,11 +28,9 @@ body {
   .tarjetero .tarjeta hr {
     padding: 0px;
     margin-top: 5px;
-    border: 1px solid #2a0b53; }
+    border: 1px solid #3e4095; }
   .tarjetero .tarjeta h5 {
     text-transform: uppercase; }
-  .tarjetero .tarjeta img {
-    width: 150px; }
 .tarjetero .opciones {
   background: #fff;
   padding: 15px 5px;
@@ -53,27 +47,96 @@ body {
     .tarjetero .opciones a svg {
       display: block;
       margin: auto; }
-.tarjetero .registro button {
-  padding: 6px 17px;
-  border-radius: 6px;
-  border: none;
-  color: #fff;
-  background: #7190c9; }
+.tarjetero .tarjetLogo h5 {
+  color: #3e4095; }
+  .tarjetero .tarjetLogo h5 span {
+    font-weight: 700;
+    font-size: 25px; }
+.tarjetero .tarjetLogo .tarjetFondo {
+  background-image: url("../img/logoMyTarjet.png");
+  background-size: cover;
+  height: 277px; }
+  .tarjetero .tarjetLogo .tarjetFondo button {
+    padding: 6px 17px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background: #7190c9;
+    margin-bottom: 30px;
+    margin-right: 10px; }
 
 .slider {
-  margin-top: 60px !important; }
+  margin-top: 50px !important; }
+  @media screen and (max-width: 914px) {
+    .slider {
+      margin-top: -100px !important; } }
+  @media screen and (max-width: 740px) {
+    .slider {
+      margin-top: 50px !important; } }
   .slider .slide-tarjeta {
     border-radius: 8px;
-    height: 300px;
-    background: #000; }
-  .slider .buscar {
-    background-image: url("../img/ButtonSearch.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 125px; }
-    .slider .buscar p {
+    height: 350px;
+    background: white;
+    background: linear-gradient(0deg, white 0%, #f9f9f9 87%, #d5e4ef 100%);
+    margin: 0px 4px;
+    padding: 20px 15px; }
+    .slider .slide-tarjeta img {
+      margin-top: 30px; }
+    .slider .slide-tarjeta a img {
+      width: 100px;
+      margin-top: 10px; }
+    .slider .slide-tarjeta button {
+      padding: 6px 17px;
+      border-radius: 6px;
+      border: none;
       color: #fff;
-      margin-left: 50px;
-      margin-top: 5px; }
+      background: #7190c9;
+      float: right; }
+
+.myTitulo img {
+  width: 200px;
+  float: right;
+  margin-top: -40px; }
+
+.perfil .cuerpo {
+  background: white;
+  background: linear-gradient(0deg, white 0%, #e5d5e8 53%, #dac1de 100%);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  height: 290px; }
+  .perfil .cuerpo .logo img {
+    margin-top: -70px; }
+  .perfil .cuerpo h5 {
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px; }
+  .perfil .cuerpo p {
+    text-transform: uppercase;
+    font-size: 15px; }
+.perfil .contenido {
+  background: #fff;
+  border-radius: 30px;
+  margin: 0px 15px;
+  margin-top: -215px;
+  padding: 20px 30px;
+  box-shadow: 4.5px 2.4px 3.6px rgba(0, 0, 0, 0.017), 12.4px 6.6px 10px rgba(0, 0, 0, 0.025), 29.8px 16px 24.1px rgba(0, 0, 0, 0.033), 99px 53px 80px rgba(0, 0, 0, 0.05); }
+  .perfil .contenido img {
+    width: 40px;
+    display: block;
+    margin: auto; }
+  .perfil .contenido h6 {
+    padding: 0;
+    margin: 0;
+    color: #393978; }
+  .perfil .contenido a {
+    text-decoration: none;
+    color: #000; }
+  .perfil .contenido a, .perfil .contenido p {
+    font-size: 14px; }
+
+.servicios h6 {
+  color: #393978; }
 
 /*# sourceMappingURL=estilos.css.map */
