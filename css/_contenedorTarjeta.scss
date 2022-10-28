@@ -53,10 +53,6 @@ $btnColor: #7190c9;
         h5{
             text-transform: uppercase;
         }
-        // img{
-        //     width: 150px;
-        // }
-        
     }
     .opciones{
         background: #fff;
@@ -97,14 +93,14 @@ $btnColor: #7190c9;
         .tarjetFondo{
             background-image: url("../img/logoMyTarjet.png");
             background-size: cover;
-            height: 277px;
+            height: 340px;
             button{
                 padding: 6px 17px;
                 border-radius: 6px;
                 border: none;
                 color: #fff;
                 background: $btnColor;
-                margin-bottom: 30px;
+                margin-bottom: 5px;
                 margin-right: 10px;
             }
         }
@@ -112,14 +108,7 @@ $btnColor: #7190c9;
 }
 
 .slider{
-    margin-top: 50px!important;
-
-    @media screen and (max-width: 914px){
-        margin-top: -100px!important;
-    }
-    @media screen and (max-width: 740px){
-        margin-top: 50px!important;
-    }
+    // margin-top: 50px!important;
 
     .slide-tarjeta{
         border-radius: 8px;
